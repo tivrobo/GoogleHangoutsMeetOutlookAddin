@@ -161,8 +161,8 @@ function makeid() {
     return text;
 }
 // Client ID and API key from the Developer Console
-var CLIENT_ID = '<your_client_id_here>';
-var API_KEY = '<your_api_key_here>';
+var CLIENT_ID = '209074351753-fvg2hph8tdv622tcb1mfo5391npeol9q.apps.googleusercontent.com';
+var API_KEY = 'AIzaSyDVM_t9YU70IaunS-jbAKIyaZYG1uIc2wQ';
 
 // Array of API discovery doc URLs for APIs used by the quickstart
 var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
