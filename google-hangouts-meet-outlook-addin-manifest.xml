@@ -8,7 +8,7 @@
 
   <!-- IMPORTANT! Id must be unique for your add-in, if you reuse this manifest ensure that you change this id to a new GUID. -->
   <!-- Your GUID Below -->
-  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Id>ed80c55b-9d8e-4e46-bf88-23cb8c69ccbe</Id>
 
   <!--Version. Updates from the store only get triggered if there is a version change. -->
   <Version>1.0.0.0</Version>
@@ -19,14 +19,14 @@
   <Description DefaultValue="A simple addin for Outlook to assist with scheduling Google Hangouts Meet conferences."/>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <!--<IconUrl DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/assets/icon-32.png" />-->
-  <!--<HighResolutionIconUrl DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/assets/logo-filled.png"/>-->
+  <!--<IconUrl DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/assets/icon-32.png" />-->
+  <!--<HighResolutionIconUrl DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/assets/logo-filled.png"/>-->
 
-  <IconUrl DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/assets/icon-64.png" />
-  <HighResolutionIconUrl DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/assets/icon-64.png" />
+  <HighResolutionIconUrl DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/assets/icon-64.png"/>
 
   <!--If you plan to submit this add-in to the Office Store, uncomment the SupportUrl element below-->
-  <SupportUrl DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin" />
+  <SupportUrl DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin" />
 
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
@@ -46,7 +46,7 @@
     <!--<Form xsi:type="ItemRead">-->
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/index.html"/>
+        <SourceLocation DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/index.html"/>
         <!--<RequestedHeight>250</RequestedHeight>-->
       </DesktopSettings>
     </Form>
@@ -169,15 +169,15 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/assets/icon-16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/assets/icon-32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/assets/icon-80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/assets/icon-16.png"/>
+        <bt:Image id="icon32" DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/assets/icon-32.png"/>
+        <bt:Image id="icon80" DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/function-file/function-file.html"/>
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/index.html"/>
-        <bt:Url id="apptSettingsTaskPaneUrl" DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/index.html"/>
-        <!--<bt:Url id="apptReadSettingsTaskPaneUrl" DefaultValue="https://<your_website_here>/hangoutsmeetoutlookaddin/index.html"/>-->
+        <bt:Url id="functionFile" DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/function-file/function-file.html"/>
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/index.html"/>
+        <bt:Url id="apptSettingsTaskPaneUrl" DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/index.html"/>
+        <!--<bt:Url id="apptReadSettingsTaskPaneUrl" DefaultValue="https://addins.b2bsoft.com/hangoutsmeetoutlookaddin/index.html"/>-->
 
 
       </bt:Urls>
